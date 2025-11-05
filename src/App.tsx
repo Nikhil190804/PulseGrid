@@ -1,7 +1,7 @@
 
 import React, { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import "./index.css";
-import { ThemeProvider } from "./theme/Themeprovider";
+import { ThemeProvider } from "./theme/ThemeProvider";
 import { ThemeToggle } from "./components/ThemeToggle";
 import { Timer } from "./components/Timer";
 import { Score } from "./components/Score";
