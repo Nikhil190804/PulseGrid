@@ -16,7 +16,7 @@ id: 2,
 name: "Diagonals",
 description: "Flash squares where row===col or row+col===4",
 hint: "Main and anti-diagonal cross.",
-rule: (index, row, col) => row === col || row + col === 4,
+rule: (_index, row, col) => row === col || row + col === 4,
 },
 {
 id: 3,
